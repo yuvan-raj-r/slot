@@ -28,7 +28,7 @@ Execute the program using runserver command.
 
 ## PROGRAM
 ```
-<<html>
+<html>
     <head>
         <title>slot Timetable</title>
     </head>
@@ -52,8 +52,7 @@ Execute the program using runserver command.
             <td bgcolor="cyan">8-10</td>
             <td>Free slot</td>
             <td>C PROG</td>
-            <td>Free slot</td>
-            <td>Free slot</td>
+            <td colspan="2" align="center">Free slot</td>
             <td>WEB</td>
             <td>PS</td>
         </tr>
@@ -63,8 +62,7 @@ Execute the program using runserver command.
             <td>Free slot</td>
             <td>PS</td>
             <td>Free slot</td>
-            <td>WEB</td>
-            <td>WEB</td>
+            <td colspan="2" align="center">WEB</td>
         </tr>
         <tr  align="center">
             <td bgcolor="cyan">12-1</td>
@@ -72,8 +70,7 @@ Execute the program using runserver command.
         </tr>
         <tr align="center">
             <td bgcolor="cyan">1-3</td>
-            <td>WEB</td>
-            <td>WEB</td>
+            <td colspan="2" align="center">WEB</td>
             <td>MM</td>
             <td>PS</td>
             <td>Free slot</td>
@@ -82,11 +79,8 @@ Execute the program using runserver command.
         <tr align="center">
             <td bgcolor="cyan">3-5</td>
             <td>Free slot</td>
-            <td>C PROG</td>
-            <td>C PROG</td>
-            <td>C PROG</td>
-            <td>Free slot</td>
-            <td>Free slot</td> 
+            <td colspan="3" align="center">C PROG</td>
+            <td colspan="2" align="center">Free slot</td> 
         </tr>
         </table>
         <br>
@@ -118,6 +112,7 @@ Execute the program using runserver command.
             </tr>
             </table>
         </body>
+</html>
 ```
 
 
